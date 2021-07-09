@@ -47,8 +47,8 @@ const SearchBar = () => {
 
     return (
         <>
-            <div className="row search_bar m-2 justify-content-around ">
-                <div className="row col-md-10 search_area p-0 m-0">
+            <div className="row search_bar m-2">
+                <div className="row col-md-9 search_area p-0 m-0">
                     <input id="search_content" type="text" placeholder="Search for photos" style={{ fontFamily: 'Roboto Condensed' }} value={Search_for} onChange={fetching_search_target} autoComplete="Off" />
                 </div>
                 <div className="row col-md-2 search_button m-0">
