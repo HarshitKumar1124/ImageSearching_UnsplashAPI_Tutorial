@@ -1,0 +1,204 @@
+*{
+  margin:0px;
+  padding:0%;
+  box-sizing: border-box;
+}
+
+p{
+  margin:0 !important;
+  padding:0 !important;
+  font-size: 20px !important;
+  font-weight: bold;
+}
+span{
+  padding:0 !important;
+  color:#42424280
+}
+
+
+/* *************************************************************************************************************************** */
+.Full_screen{
+  border:2px solid #f2f2f2;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #f2f2f2;
+}
+/* 
+.design_size{
+  border:2px solid red;
+  
+} */
+
+/* .search_bar{
+  border: 2px solid black;
+} */
+
+.search_area{
+  border-radius: 6px;
+  box-shadow: 1px 2px 5px rgb(187, 184, 184);
+  background-color: white;
+}
+
+.search_area input{
+  width: 100%;
+  height: 100%;
+  border:none;
+  border-radius: 6px;
+}
+
+.search_button {
+  border-radius: 5px;
+  margin-left: 5px !important;
+  /* border:1px solid red
+   */
+}
+.search_button button{
+  color:white;
+  background-color: #121212;
+  padding:10px;
+  border-radius: 5px;
+  
+
+}
+
+/* ************************************************************************************************************ */
+                                      
+/* ************************************************************************************************************ */
+
+
+/* .Result_text{
+  border:2px solid green;
+} */
+
+/* ************************************************************************************************************ */
+                                      
+/* ************************************************************************************************************ */
+
+/* .Image_Display_Area{
+  border:2px solid orangered
+} */
+
+.ImageContainer{
+  /* border:2px solid black */
+}
+
+.Image_card{
+  width:290px !important;
+  height:150px !important;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* .Load_More_Area{
+  border:2px solid palevioletred
+} */
+
+.loadMore{
+  box-shadow: 0px 3px 6px #00000029;
+border-radius: 6px;
+width: 200px;
+height: 70px;
+background-color: #000;
+color:#fff;
+font: normal normal bold 20px/24px Roboto Condensed;
+}
+
+
+
+
+/* **************************************************************************************************************************** */
+
+/* LOADING ANIMATION CSS */
+
+/* **************************************************************************************************************************** */
+
+.lds-roller {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-roller div {
+  animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  transform-origin: 40px 40px;
+}
+.lds-roller div:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #000;
+  margin: -4px 0 0 -4px;
+}
+.lds-roller div:nth-child(1) {
+  animation-delay: -0.036s;
+}
+.lds-roller div:nth-child(1):after {
+  top: 63px;
+  left: 63px;
+}
+.lds-roller div:nth-child(2) {
+  animation-delay: -0.072s;
+}
+.lds-roller div:nth-child(2):after {
+  top: 68px;
+  left: 56px;
+}
+.lds-roller div:nth-child(3) {
+  animation-delay: -0.108s;
+}
+.lds-roller div:nth-child(3):after {
+  top: 71px;
+  left: 48px;
+}
+.lds-roller div:nth-child(4) {
+  animation-delay: -0.144s;
+}
+.lds-roller div:nth-child(4):after {
+  top: 72px;
+  left: 40px;
+}
+.lds-roller div:nth-child(5) {
+  animation-delay: -0.18s;
+}
+.lds-roller div:nth-child(5):after {
+  top: 71px;
+  left: 32px;
+}
+.lds-roller div:nth-child(6) {
+  animation-delay: -0.216s;
+}
+.lds-roller div:nth-child(6):after {
+  top: 68px;
+  left: 24px;
+}
+.lds-roller div:nth-child(7) {
+  animation-delay: -0.252s;
+}
+.lds-roller div:nth-child(7):after {
+  top: 63px;
+  left: 17px;
+}
+.lds-roller div:nth-child(8) {
+  animation-delay: -0.288s;
+}
+.lds-roller div:nth-child(8):after {
+  top: 56px;
+  left: 12px;
+}
+@keyframes lds-roller {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.LoadingSpin{
+  /* border:2px solid red; */
+  display:inline-block;
+  width:10% !important;
+}
